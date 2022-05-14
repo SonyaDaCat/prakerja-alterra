@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "20295a69-21c2-4a6d-a736-249400b052bf",
+		"name": "API Anjing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Mendapatkan Semua Hasil Perkawinan",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dog.ceo/api/breeds/list/all",
+					"protocol": "https",
+					"host": [
+						"dog",
+						"ceo"
+					],
+					"path": [
+						"api",
+						"breeds",
+						"list",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mendapatkan Hasil Perkawinan Spesifik",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dog.ceo/api/breed/hound/images",
+					"protocol": "https",
+					"host": [
+						"dog",
+						"ceo"
+					],
+					"path": [
+						"api",
+						"breed",
+						"hound",
+						"images"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Menambah Data Anjing Baru",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://dog.ceo/api/",
+					"protocol": "https",
+					"host": [
+						"dog",
+						"ceo"
+					],
+					"path": [
+						"api",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "181d04da-7479-4f2f-93f8-4bbb9c017c84",
+		"name": "API Rubah",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Mendapatkan Semua Hasil Rubah",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Mendapatkan Random",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

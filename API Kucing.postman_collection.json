@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "be2c15d3-6a84-41c1-93b4-3f9db25ddba7",
+		"name": "API Kucing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Mendapatkan Semua Hasil Perkawinan",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Mendapatkan Hasil Perkawinan Spesifik",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Menambah Data Kucing Baru",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "84ac6590-0b7b-4195-97a6-0efb7f9d1940",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "multipart/form-data",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "https://api.thecatapi.com/v1/images/upload",
+					"protocol": "https",
+					"host": [
+						"api",
+						"thecatapi",
+						"com"
+					],
+					"path": [
+						"v1",
+						"images",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
